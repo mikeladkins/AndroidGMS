@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidGMS</string>
+    <string name="text_title">Android GMS</string>
+    <string name="button_login">Login</string>
+    <string name="button_createAccount">Create Account</string>
+    <string name="button_manageAccount">Manage Account</string>
 </resources>
