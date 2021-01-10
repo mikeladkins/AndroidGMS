@@ -4,4 +4,6 @@
     <string name="button_login">Login</string>
     <string name="button_createAccount">Create Account</string>
     <string name="button_manageAccount">Manage Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
