@@ -29,6 +29,7 @@ hs_err_pid*
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
 .idea/caches/build_file_checksums.ser
+.idea/assetWizardSettings.xml
 *.iml
 .gradle/*
 /local.properties
