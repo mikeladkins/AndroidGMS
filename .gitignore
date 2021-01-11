@@ -31,7 +31,8 @@ hs_err_pid*
 .idea/caches/build_file_checksums.ser
 .idea/assetWizardSettings.xml
 *.iml
-.gradle/*
+.gradle/
+.gradle/6.5/
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
