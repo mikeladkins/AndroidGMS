@@ -22,20 +22,20 @@ class RosterListViewModel: ViewModel() {
     }
 
     private fun mapNum(num: Int): CharacterClass {
-        when (num) {
-            1 -> return CharacterClass.DEATH_KNIGHT
-            2 -> return CharacterClass.DEMON_HUNTER
-            3 -> return CharacterClass.DRUID
-            4 -> return CharacterClass.HUNTER
-            5 -> return CharacterClass.MAGE
-            6 -> return CharacterClass.MONK
-            7 -> return CharacterClass.PALADIN
-            8 -> return CharacterClass.PRIEST
-            9 -> return CharacterClass.ROGUE
-            10 -> return CharacterClass.SHAMAN
-            11 -> return CharacterClass.WARLOCK
-            12 -> return CharacterClass.WARRIOR
-            else -> return CharacterClass.DEATH_KNIGHT
+        return when (num) {
+            1 -> CharacterClass.DEATH_KNIGHT
+            2 -> CharacterClass.DEMON_HUNTER
+            3 -> CharacterClass.DRUID
+            4 -> CharacterClass.HUNTER
+            5 -> CharacterClass.MAGE
+            6 -> CharacterClass.MONK
+            7 -> CharacterClass.PALADIN
+            8 -> CharacterClass.PRIEST
+            9 -> CharacterClass.ROGUE
+            10 -> CharacterClass.SHAMAN
+            11 -> CharacterClass.WARLOCK
+            12 -> CharacterClass.WARRIOR
+            else -> CharacterClass.DEATH_KNIGHT
         }
     }
 }
